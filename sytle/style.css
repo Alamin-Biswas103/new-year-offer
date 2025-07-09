@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 
+/* Inter font  link is here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 
@@ -34,4 +45,33 @@ header,main{
 }
 .hero-section-container h1{
     font-size: 72px;
+}
+
+/* Flat card which is about 65% OFF is added here */
+.flat-card{
+    margin: 120px 16.19%;
+    text-align: center;
+}
+
+.flat-card h1{
+    color: red;
+    font-size:  6rem;
+    font-weight: 700;
+
+}
+
+.flat-card p{
+    color: red;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.flat-card h3{
+ font-size: 3rem;
+  margin-bottom: 20px;
+
+}
+.flat-card img{
+    width: 90%;
+   
 }
