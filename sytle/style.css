@@ -11,6 +11,16 @@
     box-sizing: border-box;
 }
 
+/* Common class */
+.gray-text{
+    color: rgba(255, 255, 255, 0.808);
+    font-weight: 300;
+}
+
+
+body{
+    margin: 0 auto;
+}
 .inter-font{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -29,6 +39,9 @@
 
 header,main{
     margin: 50px 8.75% 0;
+}
+.hidden{
+    display: none;
 }
 
 .hero-section-container{
@@ -74,4 +87,257 @@ header,main{
 .flat-card img{
     width: 90%;
    
+}
+
+/* Midnight Party Section is designed here------- */
+.midnight-party-section{
+    display: flex;
+    padding: 142px 8% 50px;
+    background: linear-gradient(to right, #070211, #07021100);
+    margin-bottom: 120px;
+    color: white;
+    border-radius: 16px;
+}
+
+.midnight-party-section h1{
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+ .common-button{
+    background: linear-gradient(to right, orange,rgba(255, 166, 0, 0.322));
+    color: white;
+    margin-top: 40px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 600;
+ }
+
+
+
+ /* Event Address section is designed here */
+ .event-address{
+    background: linear-gradient(#ff000060,#ff00000e );
+    border-radius: 16px;
+    margin-bottom: 120px;
+    padding: 102px 8% 50px;
+    text-align: center;
+
+ }
+
+ .event-address span{
+    color: red;
+ }
+
+ .event-address p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 5px 0;
+ }
+
+
+
+ /* New Best Offer Section */
+ .new-best-offer{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .coming-soon-container{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 220px;
+ }
+
+ .coming-soon-container h3{
+    color: red;
+    margin-bottom: 10px;
+ }
+  
+ .coming-soon-container h1{
+    font-size: 3rem;
+ }
+
+ .coming-soon-container p{
+    color: rgba(0, 0, 0, 0.534);
+    margin-top: 10px;
+
+ }
+
+ .red-ring{
+    height: 350px;
+    width: 100%;
+    border: 8px solid red;
+    border-radius: 100%;
+    margin: 0 5%;
+ }
+
+ .image-2024-container{
+    width: 100%;
+    margin-top: 80px;
+ }
+
+
+ .image-2024-container h2{
+    color: red;
+    margin-bottom: 10px;
+ }
+
+ .image-2024-container p{
+    color: rgba(0, 0, 0, 0.473);
+    margin-bottom: 10px;
+ }
+
+
+ /* Holidays Discount Section is designed here */
+ .holidays-discount-text{
+    text-align: center;
+ }
+ .holidays-discount-text span{
+    color: red;
+ }
+
+ .holidays-discount-text h1{
+    font-size: 4rem;
+    margin: 10px 0;
+ }
+
+ .holidays-discount-text p{
+    color: rgba(0, 0, 0, 0.479);
+ }
+
+ .holidays-discount-image{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 50px;
+    background: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 30%;
+    margin-bottom: 40px;
+    border-radius: 16px;
+ }
+
+
+
+ /* Best-gift-section is designed here */
+ .best-gift-section{
+    margin: 120px 0;
+ }
+
+ .best-gift-section h3{
+    color: red;
+    font-weight: 600;
+ }
+
+ .best-gift-section h1{
+    font-size: 2.5rem;
+    margin: 10px 0;
+ }
+
+ .best-gift-section p{
+    color: rgba(0, 0, 0, 0.514);
+ }
+
+ .best-gift-section>div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    gap: 10px 20px;
+    padding: 40px 10%;
+    margin: 30px 0 120px;
+    background: rgba(255, 0, 0, 0.082);
+    border-radius: 0px 0px 10px;
+ }
+
+
+
+ /* Subscribe Section is designed here */
+ .subscribe-section{
+    text-align: center;
+    padding: 50px 16%;
+    background: rgba(255, 0, 0, 0.096);
+    border-radius: 20px;
+ }
+
+ .subscribe-section h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 15px 0;
+ }
+
+ .subscribe-section>p{
+    color: rgba(0, 0, 0, 0.452);
+    margin-bottom: 30px;
+ }
+
+.subscribe-section bold{
+    background: red;
+    height: 50px;
+    display: block;
+}
+
+
+.subscribe-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    height: 50px;
+    background: url(../images/Rectangle\ 2.png);
+    border-radius: 1000px;
+}
+
+.subscribe-input input{
+    height: 50px;
+    width: 100%; padding: 0 20px;
+}
+
+.subscribe-input p{
+    padding: 0 30px;
+}
+
+#footer{
+    background: #000;
+    color: white;
+    padding: 50px 10%;
+    margin-top: 100px;
+}
+
+.footer-address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-address-child div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    border-top:  1px dashed white;
+    border-bottom: 1px dashed white;
+    padding: 20px 0;
+    margin: 50px 0;
+}
+
+.footer-last-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-last-div button{
+    background: #000;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
 }
